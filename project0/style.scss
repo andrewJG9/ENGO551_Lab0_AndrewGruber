@@ -1,0 +1,50 @@
+$mycolor: #9933ff;
+
+body {background-color: powderblue;}
+h1 {color: $mycolor;
+  text-align: center}
+p {color: red; font-family: arial;
+text-indent: 3%; text-align: center;}
+h2 {color: darkslategrey; text-align: center;}
+ul {color: $mycolor; font-family: verdana;  text-align: center;}
+
+#newHeader {
+
+  color: rgb(32, 51, 216);
+  padding: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.classnew {
+
+  color: darkgreen;
+  margin: 20px;
+
+}
+
+nav a {
+  display: block;
+  padding: 12px 12px;
+  text-decoration: underline;
+}
+
+.class2 {
+@extend .classnew;
+ font-family: Arial;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(17, 18, 19);
+    font-family: Helvetica;
+  }
+}

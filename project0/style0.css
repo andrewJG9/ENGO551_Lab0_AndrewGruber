@@ -1,0 +1,28 @@
+
+
+body {background-color: powderblue;}
+h1 {color: blue;
+  text-align: center}
+p {color: red; font-family: arial;
+text-indent: 3%}
+h2 {color: darkslategrey;}
+ul { font-family: verdana; font-size: 12}
+
+#newHeader {
+
+  color: Grey;
+  padding: 30px;
+  text-align: center;
+}
+
+.classnew {
+
+  color: darkgreen;
+  margin: 20px;
+
+}
+
+
+
+
+
